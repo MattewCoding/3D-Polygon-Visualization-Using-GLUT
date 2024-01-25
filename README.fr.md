@@ -45,7 +45,7 @@ Avant d'exécuter le projet, assurez-vous que les prérequis suivants sont insta
 - [Bibliothèque GLUT](https://www.opengl.org/resources/libraries/glut/glut_downloads.php) : Téléchargez et installez la bibliothèque GLUT pour votre système d'exploitation.
 
 Alternativement, installez un IDE capable de compiler des projets C++/GLUT. J'ai utilisé CodeBlocks, je le recommande donc.
-- CodeBlocks](https://www.codeblocks.org/downloads/) : Un IDE
+- [CodeBlocks](https://www.codeblocks.org/downloads/) : Un IDE
 
 ### Installation
 Vous pourriez probablement utiliser git clone mais je ne l'ai jamais utilisé, donc si vous savez comment faire, allez-y, mais sinon je recommande de télécharger le fichier zip en cliquant sur le bouton "Code" et ensuite sur le bouton "Download ZIP".
