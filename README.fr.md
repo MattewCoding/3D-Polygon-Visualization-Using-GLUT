@@ -5,7 +5,7 @@ En utilisant GLUT (basé sur C++), j'ai créé un programme qui permet de visual
 
 ## Table des matières
 
-- Visualisation de polygones en 3D à l'aide de GLUT](#nom-du-projet)
+- [3D Polygon Visualization Using GLUT](#project-name)
   - [Table des matières](#table-des-matières)
   - [Description](#description)
   - [Caractéristiques](#caractéristiques)
