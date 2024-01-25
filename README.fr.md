@@ -23,14 +23,14 @@ Dans le cadre de mes cours à l'université, on m'a demandé d'utiliser GLUT pou
 ## Caractéristiques
 
 - Visualisation de 4 polygones différents
-- Une sphère
-- Une superquadrique
-- Un tore
-- Un cylindre
-- Modifier les différents polygones par
-- l'étirement
-- Déplacement
-- en le faisant pivoter
+  - Une sphère
+  - Une superquadrique
+  - Un tore
+  - Un cylindre
+- Modifier les différents polygones
+  - Avec l'étirement
+  - Avec le déplacement
+  - En le faisant pivoter
 - Passer d'un maillage en triangle à un maillage en rectangle
 
 ## Démarrage
@@ -48,65 +48,39 @@ Alternativement, installez un IDE capable de compiler des projets C++/GLUT. J'ai
 - CodeBlocks](https://www.codeblocks.org/downloads/) : Un IDE
 
 ### Installation
-
-1. Clonez le dépôt sur votre machine locale :
-
-    ```bash
-    git clone https://github.com/your-username/your-project.git
-    ```
-
-2. Naviguez vers le répertoire du projet :
-
-    ``bash
-    cd votre-projet
-    ```
-
-3. Construisez le projet en utilisant le Makefile fourni :
-
-    ``bash
-    make
-    ```
-
-4. Exécutez l'exécutable :
-
-    ``bash
-    ./main
-    ```
-
-Vous devriez maintenant avoir un projet opérationnel sur votre machine locale.
+Vous pourriez probablement utiliser git clone mais je ne l'ai jamais utilisé, donc si vous savez comment faire, allez-y, mais sinon je recommande de télécharger le fichier zip en cliquant sur le bouton "Code" et ensuite sur le bouton "Download ZIP".
 
 ## Utilisation
-
 Instructions are explained in the console, but for completeness sake:
 - Generale
--   P: Forme suivante
--   O: Forme precedente
--   M: Basculer entre la maille carree et la maille triangulaire
--   L: Des/activer la rotation
+  - P: Forme suivante
+  - O: Forme precedente
+  - M: Basculer entre la maille carree et la maille triangulaire
+  - L: Des/activer la rotation
 - Deplacements
--   Z: Vers le haut
--   Q: Vers la gauche
--   S: Vers le bas
--   D: Vers la droite
--   A: Dans axe Z vers l'avant
--   E: Dans axe Z vers l'arriere
+  - Z: Vers le haut
+  - Q: Vers la gauche
+  - S: Vers le bas
+  - D: Vers la droite
+  - A: Dans axe Z vers l'avant
+  - E: Dans axe Z vers l'arriere
 - Rotation
--   W: Rotation vers la gauche sur le plan XY
--   X: Rotation vers la droite sur le plan XY
--   C: Rotation vers l'avant sur le plan YZ
--   V: Rotation vers l'arriere sur le plan YZ
--   B: Rotation vers la gauche sur le plan XZ
--   N: Rotation vers la droite sur le plan XZ\
+  - W: Rotation vers la gauche sur le plan XY
+  - X: Rotation vers la droite sur le plan XY
+  - C: Rotation vers l'avant sur le plan YZ
+  - V: Rotation vers l'arriere sur le plan YZ
+  - B: Rotation vers la gauche sur le plan XZ
+  - N: Rotation vers la droite sur le plan XZ
 - Mise a l'echelle (ou, pour la superquadrique, modification des exposants de son equation)
--   R : Augmenter l'echelle du polygone sur l'axe X
--   F : Diminuer l'echelle du polygone sur l'axe X
--   T : Augmenter l'echelle des polygones sur l'axe des Y
--   G : Diminuer l'echelle des polygones sur l'axe des Y
--   Y : Augmenter l'echelle des polygones sur l'axe Z
--   H : Diminuer l'echelle du polygone sur l'axe Z
+  - R : Augmenter l'echelle du polygone sur l'axe X
+  - F : Diminuer l'echelle du polygone sur l'axe X
+  - T : Augmenter l'echelle des polygones sur l'axe des Y
+  - G : Diminuer l'echelle des polygones sur l'axe des Y
+  - Y : Augmenter l'echelle des polygones sur l'axe Z
+  - H : Diminuer l'echelle du polygone sur l'axe Z
 - Tore
--   U: Augmenter le rapport
--   J: Diminuer le rapport \n");
+  - U: Augmenter le rapport
+  - J: Diminuer le rapport
 
 ## Licence
 
