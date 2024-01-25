@@ -23,14 +23,14 @@ As part of my unviersity lessons, I was tasked with using GLUT to visualize a sp
 ## Features
 
 - Visualize 4 different polygons
--   A sphere
--   A superquadric
--   A torus
--   A cylinder
+  - A sphere
+  - A superquadric
+  - A torus
+  - A cylinder
 - Modify the different polygons via
--   Streching
--   Moving it around
--   Rotating it
+  - Streching
+  - Moving it around
+  - Rotating it
 - "Switch" between a triangle and rectangle mesh
 
 ## Getting Started
@@ -48,32 +48,7 @@ Alternatively, install an IDE capable of compiling C++/GLUT projects. I used Cod
 - [CodeBlocks](https://www.codeblocks.org/downloads/): An IDE
 
 ### Installation
-
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/your-project.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-project
-    ```
-
-3. Build the project using the provided Makefile:
-
-    ```bash
-    make
-    ```
-
-4. Run the executable:
-
-    ```bash
-    ./main
-    ```
-
-Now you should have the project up and running on your local machine.
+You could probably use git clone but tbh I've never used that so if you know how to do it, go ahead, but otherwise I recommend just downloading the zip file by clicking the "Code" button and then the "Download ZIP" button.
 
 ## Usage
 - General commands
